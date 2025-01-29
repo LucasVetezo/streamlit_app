@@ -57,7 +57,3 @@ st.header("Contact Information")
 email = "thami94vee@gmail.com"
 st.write(f"You can reach {name} at {email}.")
 
-audio_value = st.audio_input("Record a voice message")
-
-if audio_value:
-    st.audio(audio_value)
